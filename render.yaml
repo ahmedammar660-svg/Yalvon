@@ -28,6 +28,4 @@ services:
       # it, portfolio.db resets to a fresh empty database every time
       # Render restarts or redeploys the service. See README.md's
       # "Deploying to Render" section for what this means in practice.
-      name: yalvon360-data
-      mountPath: /opt/render/project/src
-      sizeGB: 1
+    
